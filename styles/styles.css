@@ -10,11 +10,21 @@ body {
 	text-align: center;
 }
 
+#boxPlayground {
+	margin-top: 30px;
+}
+
+.color-button {
+	font-size: 100%;
+	width: 80px;
+	color: white;
+}
+
 .color-cube {
   width: 100px;
   height: 100px;
   display: inline-block;
-  border: 1px solid black;
+  border: 5px solid black;
 }
 
 .red {
@@ -23,6 +33,7 @@ body {
 
 .yellow {
   background-color: yellow;
+	color: black;
 }
 
 .green {

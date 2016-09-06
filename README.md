@@ -16,10 +16,18 @@ Hard Mode
 Add functionality so, each colored box <div> tag removes itself from the DOM when clicked.
 
 Versioning
-----------
+==========
+Basic Assignment
+----------------
 * 0.1 - Initial commit with provided code
-* 0.2 -
-* 0.3 -
-* 0.4 -
-* 0.5 -
-* 0.6 -
+* 0.2 - Create a colored div
+* 0.3 - Create colored div each time the corresponding color is clicked
+* 1.0 - Increment the corresponding label on button click
+Hard Mode
+---------
+* 2.0 - Add functionality so, each colored box <div> tag removes itself from the DOM when clicked.
+Extra Mode
+---------
+* 2.1 - Random button to create a randomly colored box.
+* 2.2 - Change functionality of clicking on boxes to either cycle through colors or remove from DOM - based on a button option.
+* 3.0 - Tweak styling
