@@ -12,8 +12,16 @@ var boxCount = {
 function addRemoveBox(){
   console.log('in addRemoveBox');
   var addBox = true; // assume that a box is being added
-  // get color of button clicked
-  var boxColor = $(this).data('color');
+  var boxColor; // declaring variable for later use
+
+  if ($(this).data('color')==='random'){
+    var colorArray = ['red', 'yellow', 'green', 'blue'];
+    var randomColor = Math.floor(Math.random()*4);
+    boxColor = colorArray[randomColor];
+  } else {
+    // get color of button clicked
+    boxColor = $(this).data('color');
+  }
 
   if ($(this).hasClass('color-button')){
     // add box of boxColor to the boxPlayground

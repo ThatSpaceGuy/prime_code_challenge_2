@@ -44,3 +44,9 @@ body {
 .blue {
   background-color: blue;
 }
+
+.random {
+	width: auto;
+	color: black;
+	margin-top: 5px;
+}
