@@ -25,6 +25,7 @@ body {
   height: 100px;
   display: inline-block;
   border: 5px solid black;
+	margin: 0 2px;
 }
 
 .red {
