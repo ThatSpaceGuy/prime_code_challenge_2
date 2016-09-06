@@ -1,0 +1,34 @@
+/*html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, a {
+	padding: 0;
+	border: 0;
+	margin: 0;
+	font-size: 100%;
+	font: inherit;
+}*/
+
+body {
+	text-align: center;
+}
+
+.color-cube {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  border: 1px solid black;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
